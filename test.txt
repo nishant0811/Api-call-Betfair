@@ -1,0 +1,14 @@
+if(event.market.marketName == "Match Odds"){
+let teamsss=[]
+event.market.runners.forEach(team =>{
+  teamsss.push({teamid : team.selectionId , teamName : team.runnerName})
+})
+teamsss.forEach(team =>{
+  event.runnerDetails.forEach(runner =>{
+    if(runner.selectionId == team.teamid){
+      console.log(team.teamName + "   "+ runner.runnerOdds.decimalDisplayOdds.decimalOdds+"   "+runner.winRunnerOdds.decimalDisplayOdds..decimalOdds);
+    }
+  })
+})
+}
+})
