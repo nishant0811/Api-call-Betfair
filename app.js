@@ -7,7 +7,7 @@ var options = {
 	"path": "/v1/betfair/ex/event?event_id=29919699",
 	"headers": {
 		"x-rapidapi-host": "betfair-sportsbook-and-exchange.p.rapidapi.com",
-		"x-rapidapi-key": "c431ceb50cmsh900c6e1fbd06ce1p1c55efjsnb9d9482b09d0",
+		"x-rapidapi-key": "",
 		"useQueryString": true
 	}
 };
